@@ -1,0 +1,26 @@
+ioshblog_accueil:
+    pattern:   /{page}
+    defaults:  { _controller: IoshBlogBundle:Blog:index, page: 1}
+    requirements: 
+        page: \d+
+    
+ioshblog_voir:
+    pattern:   /article/{id}
+    defaults:  { _controller: IoshBlogBundle:Blog:voir}
+    
+ioshblog_ajouter:
+    pattern:   /ajouter
+    defaults:  { _controller: IoshBlogBundle:Blog:ajouter}
+ 
+ioshblog_modifier:
+    pattern:   /modifier/{id}
+    defaults:  { _controller: IoshBlogBundle:Blog:modifier}
+    requirements:
+        id: \d+ 
+ 
+ioshblog_supprimer:
+    pattern:   /supprimer/{id}
+    defaults:  { _controller: IoshBlogBundle:Blog:supprimer}
+    requirements:
+        id: \d+ 
+    

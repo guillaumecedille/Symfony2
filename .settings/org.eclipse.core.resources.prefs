@@ -1,0 +1,6 @@
+#Sun Jul 08 12:39:52 CEST 2012
+eclipse.preferences.version=1
+encoding//src/Iosh/BlogBundle/Controller/BlogController.php=UTF-8
+encoding//src/Iosh/BlogBundle/Resources/config/routing.yml=UTF-8
+encoding//src/Iosh/BlogBundle/Resources/views/Blog/index.html.twig=UTF-8
+encoding//src/Iosh/BlogBundle/Resources/views/Blog/voir.html.twig=UTF-8
